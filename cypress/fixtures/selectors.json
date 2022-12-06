@@ -1,0 +1,12 @@
+{
+  "adminPageSubtitle": ".page-header__subtitle",
+  "loginInput": "[placeholder='example@domain.xyz']",
+  "passwordInput": "[name='password']",
+  "navigationPanel": ".page-nav__day",
+  "selectedDay": "a:nth-child(4)",
+  "ticketCheckTitle": ".ticket__check-title",
+  "selectSeatsButton": ".acceptin-button",
+  "bookingButton": "button[onclick]",
+  "seatsInfo": "p:nth-child(2) > span",
+  "suuccesBookingInfo": "p:nth-child(7)"
+}
