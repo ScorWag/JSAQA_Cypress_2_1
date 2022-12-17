@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open --browser chrome",
-    "test:dashboard": "npx cypress run --record --key 894c56f2-63a4-4eeb-a093-4c360ec29092"
+    "test:dashboard": "npx cypress run --record --key 9ddca7ea-3f6a-45ce-9c62-c6d9b27a02fb"
   },
   "author": "",
   "license": "ISC",

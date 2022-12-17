@@ -1,7 +1,9 @@
 {
   "loginTitle": "Авторизация",
-  "loginError": "Неверно введен логин или пароль!",
+  "loginErrorNoImplementation": "Неверно введен логин или пароль!",
+  "loginError": "Ошибка авторизации!",
   "succesBooking": "Покажите QR-код нашему контроллеру для подтверждения бронирования.",
-  "adminPageTitle": "Администраторская",
+  "adminPageTitle": "Администраторррская",
+  "adminPageTitleExpected": "Администраторская",
   "firstHeaderOnAdminPage": "Управление залами"
 }
