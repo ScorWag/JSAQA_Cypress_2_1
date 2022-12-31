@@ -3,7 +3,7 @@
   "loginInput": "[placeholder='example@domain.xyz']",
   "passwordInput": "[name='password']",
   "navigationPanel": ".page-nav__day",
-  "selectedDay": "a:nth-child(4)",
+  "selectedDay": "a:nth-child(2)",
   "ticketCheckTitle": ".ticket__check-title",
   "selectSeatsButton": ".acceptin-button",
   "bookingButton": "button[onclick]",
