@@ -2,6 +2,7 @@
   "adminPageSubtitle": ".page-header__subtitle",
   "loginInput": "[placeholder='example@domain.xyz']",
   "passwordInput": "[name='password']",
+  "addHallInput": "[placeholder='Например, «Зал 1»']",
   "navigationPanel": ".page-nav__day",
   "selectedDay": "a:nth-child(2)",
   "ticketCheckTitle": ".ticket__check-title",

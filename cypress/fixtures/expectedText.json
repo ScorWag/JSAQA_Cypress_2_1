@@ -5,5 +5,6 @@
   "succesBooking": "Покажите QR-код нашему контроллеру для подтверждения бронирования.",
   "adminPageTitle": "Администраторррская",
   "adminPageTitleExpected": "Администраторская",
-  "firstHeaderOnAdminPage": "Управление залами"
+  "firstHeaderOnAdminPage": "Управление залами",
+  "headerAddHallOnAdminPage": "Добавление зала"
 }

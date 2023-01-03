@@ -5,9 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open --browser chrome",
-    "cy:admin_page": "cypress run --spec 'cypress/e2e/admin_page.cy.js' --record --key 9ddca7ea-3f6a-45ce-9c62-c6d9b27a02fb",
-    "cy:go_to_cinema": "cypress run --spec 'cypress/e2e/go_to_cinema.cy.js' --record --key 9ddca7ea-3f6a-45ce-9c62-c6d9b27a02fb",
-    "cy:parallel": "npm run cy:admin_page -- --browser chrome --group Spec1 --ci-build-id 1 & npm run cy:go_to_cinema -- --browser chrome --group Spec2 --ci-build-id 1",
+    "cy:admin_page": "cypress run --spec 'cypress/e2e/admin/' --record --key 9ddca7ea-3f6a-45ce-9c62-c6d9b27a02fb",
+    "cy:go_to_cinema": "cypress run --spec 'cypress/e2e/qamid_tmweb/' --record --key 9ddca7ea-3f6a-45ce-9c62-c6d9b27a02fb",
+    "cy:admin_page:chrome": "cypress run --spec 'cypress/e2e/admin/' --browser chrome --record --key 9ddca7ea-3f6a-45ce-9c62-c6d9b27a02fb",
+    "cy:admin_page:edge": "cypress run --spec 'cypress/e2e/admin/' --browser edge --record --key 9ddca7ea-3f6a-45ce-9c62-c6d9b27a02fb",
+    "cy:admin_page:electron": "cypress run --spec 'cypress/e2e/admin/' --browser electron --record --key 9ddca7ea-3f6a-45ce-9c62-c6d9b27a02fb",
+    "cy:go_to_cinema:chrome": "cypress run --spec 'cypress/e2e/qamid_tmweb/' --browser chrome --record --key 9ddca7ea-3f6a-45ce-9c62-c6d9b27a02fb",
+    "cy:go_to_cinema:edge": "cypress run --spec 'cypress/e2e/qamid_tmweb/' --browser edge --record --key 9ddca7ea-3f6a-45ce-9c62-c6d9b27a02fb",
+    "cy:go_to_cinema:electron": "cypress run --spec 'cypress/e2e/qamid_tmweb/' --browser electron --record --key 9ddca7ea-3f6a-45ce-9c62-c6d9b27a02fb",
+    "cy:parallel": "npm run cy:admin_page -- --browser chrome --group Spec1 --ci-build-id 2 & npm run cy:go_to_cinema -- --browser electron --group Spec2 --ci-build-id 2",
     "test:dashboard": "npx cypress run --record --key 9ddca7ea-3f6a-45ce-9c62-c6d9b27a02fb"
   },
   "author": "",
